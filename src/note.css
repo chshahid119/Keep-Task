@@ -1,0 +1,42 @@
+.finalNote{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+.note{
+    display: flex;
+    box-shadow: 2px 2px 2px 2px rgba(0.2,0.2,0.2,0.2);
+    width:20%;
+    flex-direction: column;
+    margin: 1rem;
+    
+}
+.delBtn{
+    display: flex;
+    justify-content: end;
+
+}
+
+.footer{
+    align-items: end;
+}
+h3{
+    padding: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+}
+
+
+.delBtn{
+  padding: 1rem;   
+}
+Footer{
+    display: flex;
+    justify-content: center;
+}

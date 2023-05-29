@@ -1,0 +1,46 @@
+.main_note{
+    width: 30%;
+    margin: auto;
+    
+    box-shadow: 2px 2px 2px 2px rgba(0.2,0.2,0.2,0.2);
+    margin-top: 3.5rem;
+    
+    
+}
+
+.title_textArea{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title{
+    /* border: transparent; */
+    padding: 1rem;
+    border: transparent;
+    outline: none;
+    
+}
+.content{
+    /* border: transparent; */
+    border: transparent;
+    padding: 1rem;
+    outline: none;
+    
+}
+button{
+    width:2rem;
+    height: 2rem;
+    border-radius: 2rem;
+    padding:1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FBBC04;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: end;
+}
